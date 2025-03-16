@@ -1,2 +1,2 @@
 # App-Agenda
-Repositório do projeto da Agenda do curso de javascript ao Typescript avançado.
+Neste repositório irei descrever o processo de criação de uma agenda conforme as aulas do curso de Javascript ao Typscript avançado do professor Luiz Otávio.
