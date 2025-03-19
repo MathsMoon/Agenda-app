@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --ignore public --ignore frontend",
     "dev": "webpack -w"
   },
@@ -12,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.4.0",
     "core-js": "^3.9.1",
@@ -24,7 +24,8 @@
     "helmet": "^4.4.1",
     "mongoose": "^8.12.1",
     "regenerator-runtime": "^0.13.7",
-    "style-loader": "^2.0.0"
+    "style-loader": "^2.0.0",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",

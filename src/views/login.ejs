@@ -276,10 +276,11 @@ input[type=text]:placeholder {
   <div id="formContent">
     <!-- Tabs Titles -->
     <!-- Login Form -->
+
     <form action="/login/HomeVerify" method="post">
       <input type="hidden" name="_csrf" value="<%= csrfToken%>">
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Email" required>
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Senha" required>
+      <input type="text" id="login" class="fadeIn second" name="Email" placeholder="Email" required>
+      <input type="text" id="password" class="fadeIn third" name="Password" placeholder="Senha" required>
       <input type="submit" class="fadeIn fourth" value="Log In">
     </form>
 
